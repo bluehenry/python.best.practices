@@ -8,6 +8,7 @@ def arg(*args):
 
 arg(1, 2, 3)
 
+
 # Key word arguments
 def kwargs(name, **kwargs):
     print(name)

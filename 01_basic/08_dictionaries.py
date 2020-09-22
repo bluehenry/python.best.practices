@@ -1,35 +1,35 @@
-thisdict = {
+this_dict = {
     "brand": "Ford",
     "model": "Mustang",
     "year": 1964
 }
 
-print(thisdict)
-print(thisdict.keys())
-print(thisdict.values())
+print(this_dict)
+print(this_dict.keys())
+print(this_dict.values())
 
-for key, value in thisdict.items():
+for key, value in this_dict.items():
     print(key, ': ', value)
 
-print(thisdict['brand'])
+print(this_dict['brand'])
 
 try:
-    print(thisdict['nosuchkey'])
+    print(this_dict['nosuchkey'])
 except KeyError:
     print("Error finding nosuchkey")
 
-print(thisdict.get("model"))
+print(this_dict.get("model"))
 
 # Adding value
-thisdict["color"] = "red"
-print(thisdict)
+this_dict["color"] = "red"
+print(this_dict)
 
 # Removing values
-thisdict.pop("model")
-print(thisdict)
+this_dict.pop("model")
+print(this_dict)
 
-del thisdict["color"]
-print(thisdict)
+del this_dict["color"]
+print(this_dict)
 
 # List of students
 students = [

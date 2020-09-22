@@ -1,5 +1,6 @@
 message = 'global'
 
+
 def enclosing():
     message = 'enclosing'
 

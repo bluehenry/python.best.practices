@@ -1,4 +1,4 @@
-# Numberic
+# Number
 ## int
 unlimited precision signed integer
 ## float
@@ -7,19 +7,21 @@ IEEE-754 double precision(64-bit).
 
 ```python
 import sys.float_info
+
 sys.float_info.max
 sys.float_info.min
 
 ```
 
 # decimal
-The standard library module deccimal containing the class Decimal
+The standard library module decimal containing the class Decimal
 
 decimal floating point configurable (although finite) precision.
 
 defaults to 28 digits of decimal precision.
 ```python
 from decimal import Decimal
+
 Decimal('0.8')
 Decimal('NaN')
 ```
@@ -28,7 +30,6 @@ Decimal('NaN')
 The standard library module fractions containing the class Fraction for rational numbers
 ```python
 from fractions import Fraction(2, 3)
-
 ```
 
 # complex
@@ -37,7 +38,7 @@ type(3 + 4j)
 ```
 
 # abs() 
-The built-in fuction abs() gives the distance from zero.
+The built-in function abs() gives the distance from zero.
 
 # round()
 round() will return the nearest integer.

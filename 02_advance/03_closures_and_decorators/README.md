@@ -6,7 +6,7 @@
 * Built-in(B): Reserved names in Python builtin modules
 
 # Local function
-* Userful for specialized, one-off functions
+* Useful for specialized, one-off functions
 * Aid in code organization and readability
 * Similar to lambdas, but more general: 
     * May contain multiple expressions. 
@@ -23,7 +23,7 @@ def enclosing():
     return local_func
 ```    
 
-# Closeure
+# Closure
 Local functions can reference bindings in their enclosing scope via the LEGB rule. 
 Furthermore, local functions can be returned from their defining scope and executed in another scope. 
 This raises an interesting question. How does a local function use bindings to objects defined in a scope that no longer exists? 

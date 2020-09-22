@@ -1,6 +1,7 @@
 import math
 import traceback
 
+
 class InclinationError(Exception):
     pass
 

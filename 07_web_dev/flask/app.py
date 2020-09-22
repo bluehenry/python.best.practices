@@ -2,19 +2,19 @@ from flask import Flask, render_template, redirect, url_for, request, abort, jso
 from datetime import datetime
 
 import sys
+
 sys.path.append(".")
 
 from model import db
-
 
 app = Flask(__name__)
 
 
 @app.route("/", methods=["GET", "POST"])
 def welcome():
-    # first arguments is name of tempalte file
+    # first arguments is name of template file
     # other arguments are data passed to the template context
-    # templates should be in folder /tempates
+    # templates should be in folder /templates
     return render_template(
         "welcome.html",
         cards=db)
@@ -43,7 +43,7 @@ def card_view(index):
             "card.html",
             card=card,
             index=index,
-            max_index=len(db)-1
+            max_index=len(db) - 1
         )
     except IndexError:
         abort(404)
@@ -56,9 +56,10 @@ def add_card():
         card = {"question": request.form['question'],
                 "answer": request.form['answer']}
         db.append(card)
-        return redirect(url_for('card_view', index=len(db)-1))
+        return redirect(url_for('card_view', index=len(db) - 1))
     else:
         return render_template("add_card.html")
+
 
 @app.route("/remove_card/<int:index>", methods=["GET", "POST"])
 def remove_card(index):

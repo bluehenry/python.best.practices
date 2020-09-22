@@ -1,5 +1,5 @@
 class Celsius:
-    def __init__(self, temperature = 0):
+    def __init__(self, temperature=0):
         self._temperature = temperature
 
     def to_fahrenheit(self):
@@ -16,6 +16,7 @@ class Celsius:
             raise ValueError("Temperature below -273 is not possible")
         print("Setting value")
         self._temperature = value
+
 
 c = Celsius()
 print(c.temperature)

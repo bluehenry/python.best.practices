@@ -46,7 +46,7 @@ then only the initializer of the first base class is automatically called
 * Unbound proxy: not bound to a class or instance
 * There are two types of bound proxies: instance-bound and class-bound
 
-### Class-baound proxy
+### Class-bound proxy
 ```python
 super(base-class, derived-class)
 ```

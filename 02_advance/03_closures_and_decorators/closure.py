@@ -6,6 +6,7 @@ def enclosing():
 
     return local_func
 
+
 lf = enclosing()
 lf()
 print(lf.__closure__)

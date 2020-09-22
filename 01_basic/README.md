@@ -22,7 +22,7 @@ REPL or Read-Evaluate-Print-Loop
 * Default argument expressions evaluated once, when def is executed
 * Python uses dynamic typing: We don't specify types in advance
 * Python uses strong typing: Types are not coerced to match
-* Names are looked up in four nested scopes:  LEGB rule: Local, Enclosing, Global, and Built-ins
+* Names are looked up in four nested scopes: LEGB rule: Local, Enclosing, Global, and Built-ins
 * Global references can be read from a local scope
 * Use global to assign to global references from a local scope
 * Everything in Python is an object: This includes modules and functions. They can be treated just like other objects

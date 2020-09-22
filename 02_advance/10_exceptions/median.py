@@ -7,6 +7,7 @@ def median(iterable):
         return items[median_index]
     return (items[median_index] + items[median_index + 1]) / 2.0
 
+
 def main():
     try:
         median([])

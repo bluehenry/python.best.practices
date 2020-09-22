@@ -1,10 +1,13 @@
 import functools
 
+
 def decorator(f):
     @functools.wraps(f)
     def wrapper():
-        return(f)
+        return (f)
+
     return wrapper
+
 
 @decorator
 def hello():

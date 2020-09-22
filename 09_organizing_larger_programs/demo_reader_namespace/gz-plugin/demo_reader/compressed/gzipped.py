@@ -1,5 +1,4 @@
 import gzip
-
 from ..util import writer
 
 extension = '.gz'

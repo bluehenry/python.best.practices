@@ -7,6 +7,7 @@ def escape_unicode(f):
     # Return wrap function, which call ascii(city())
     return wrap
 
+
 class Trace:
     def __init__(self):
         self.enabled = True
@@ -16,14 +17,17 @@ class Trace:
             if self.enabled:
                 print(f'Calling {f}')
             return f(*args, **kwargs)
+
         return wrap
 
 
 tracer = Trace()
 
+
 @tracer
 @escape_unicode
 def city():
     return '广州'
+
 
 print(city())

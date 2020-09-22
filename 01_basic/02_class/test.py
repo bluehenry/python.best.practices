@@ -1,18 +1,18 @@
-# class Persone:
+# class Person:
 #   def __init__(self, name, age):
 #     self.name = name
 #     self.age = age
 #
-# p1 = Persone("John", 36)
+# p1 = Person("John", 36)
 
 # print(p1.name)
 # print(p1.age)
 
 
 class Student:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
 
 p1 = Student("John", 36)

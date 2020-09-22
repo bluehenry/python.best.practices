@@ -1,6 +1,3 @@
-
-
-
 from flask import Flask, render_template, redirect, url_for, request
 
 from student import Student
@@ -26,4 +23,4 @@ def students_page():
 
 
 if __name__ == "__main__":
-	app.run(debug=True)
+    app.run(debug=True)

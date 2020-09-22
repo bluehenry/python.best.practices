@@ -1,13 +1,12 @@
 # demo_reader/multireader.py
-
 import os
-
 from demo_reader.compressed import bzipped, gzipped
 
 extension_map = {
     '.bz2': bzipped.opener,
     '.gz': gzipped.opener
 }
+
 
 class MultiReader:
     def __init__(self, filename):

@@ -1,4 +1,4 @@
-# Compreshensions
+# Comprehensions
 Comprehensions is a short-hand syntax for creating collections and iterable objects.
 Comprehensions can use multiple input sequences and multiple if-clauses.
 

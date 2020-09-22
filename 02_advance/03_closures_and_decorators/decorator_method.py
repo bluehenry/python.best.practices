@@ -7,10 +7,12 @@ class Trace:
             if self.enabled:
                 print(f'Calling {f}')
             return f(*args, **kwargs)
+
         return wrap
 
 
 tracer = Trace()
+
 
 class AddSuffix:
     def __init__(self, suffix):

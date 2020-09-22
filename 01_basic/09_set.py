@@ -1,28 +1,27 @@
-# A set is a collection which is unordered and unindexed. In Python sets are written with curly brackets.
-thisset = {"apple", "banana", "cherry"}
-print(thisset)
-print(len(thisset))
+# A set is a collection which is unordered and un-indexed. In Python sets are written with curly brackets.
+this_set = {"apple", "banana", "cherry"}
+print(this_set)
+print(len(this_set))
 
-for x in thisset:
-  print(x)
+for x in this_set:
+    print(x)
 
-print("banana" in thisset)
+print("banana" in this_set)
 
+this_set.add("orange")
+print(this_set)
 
-thisset.add("orange")
-print(thisset)
+this_set.remove("banana")
+print(this_set)
 
-thisset.remove("banana")
-print(thisset)
+this_set.update(["orange", "mango", "grapes"])
+print(this_set)
 
-thisset.update(["orange", "mango", "grapes"])
-print(thisset)
-
-x = thisset.pop()
+x = this_set.pop()
 print(x)
 
-thisset.clear()
-print(thisset)
+this_set.clear()
+print(this_set)
 
-del thisset
-# print(thisset) # NameError: name 'thisset' is not defined
+del this_set
+#  print(thisset) # NameError: name 'thisset' is not defined

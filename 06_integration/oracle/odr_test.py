@@ -2,11 +2,11 @@ import cx_Oracle
 
 hostname = "hostname"
 port = "port"
-servicename = "servicename"
+service_name = "servicename"
 username = "username"
 password = "password#"
 
-dsn_tns = cx_Oracle.makedsn(hostname, port, service_name=servicename)
+dsn_tns = cx_Oracle.makedsn(hostname, port, service_name=service_name)
 
 connection = cx_Oracle.connect(user=username, password=password, dsn=dsn_tns)
 

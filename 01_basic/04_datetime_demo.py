@@ -1,10 +1,12 @@
 import calendar
 from datetime import datetime, timedelta
 
+
 def print_dayofweek():
     print(calendar.day_name[0])
     print(calendar.day_name[1])
     print(calendar.day_name[6])
+
 
 dt = datetime(2019, 8, 17, 00, 00, 00)
 h = dt.time().hour

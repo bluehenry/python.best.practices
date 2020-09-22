@@ -1,5 +1,6 @@
 import time
 
+
 def make_timer():
     last_called = None
 
@@ -15,6 +16,7 @@ def make_timer():
         return result
 
     return elapsed
+
 
 t = make_timer()
 print(t())

@@ -9,7 +9,7 @@ sys.path.append(module_directory)
 ```
 
 # Packages
-* Pakcages are modules that contain other modules
+* Packages are modules that contain other modules
 * Packages are generally implemented as directories containing a special \_\_init__.py file 
 
 import package
@@ -50,7 +50,7 @@ python3 -m reader_package.compressed.bzipped test.bz2 data compressed with bz2
 
 
 # Relative imports
-* Relateive can reduce typing in deepyly nested package structures
+* Relative can reduce typing in deeply nested package structures
 * Can aid package renaming and refactoring
  
 ```python
@@ -68,7 +68,7 @@ It overrides the default of hiding everything that begins with an underscore.
 
 # Namespace packages 
 * Split packages across several directories
-* Namespace pacakge have on \_\_init__.py
+* Namespace package have on \_\_init__.py
 * This avoids complex initialization ordering problems
 ```python
 import sys
@@ -78,7 +78,7 @@ split_package.__path__
 
 ```
 
-# Executable Directorys
+# Executable Directories
 ## \_\_main.py__
 ## executable zip file
 zip file containing an entry point for Python execution

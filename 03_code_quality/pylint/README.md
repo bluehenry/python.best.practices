@@ -12,7 +12,7 @@ The Pylint message type can be:
 ### [W1203 with F-strings](https://github.com/PyCQA/pylint/issues/2354)
 No need to correct f-string, because f-strings have many other advantages over % formatting from a readability and/or flexibility perspective.
 
-## Disable some style checkings
+## Disable some style checking
 Add the following in .py file
 ```
 pylint: disable=C0301

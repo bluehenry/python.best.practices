@@ -2,6 +2,7 @@ import math
 import sys
 import io
 
+
 class TriangleError(Exception):
 
     def __init__(self, text, sides):

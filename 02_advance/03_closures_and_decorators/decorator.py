@@ -7,8 +7,10 @@ def escape_unicode(f):
     # Return wrap function, which call ascii(city())
     return wrap
 
+
 @escape_unicode
 def city():
     return '广州'
+
 
 print(city())

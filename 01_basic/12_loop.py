@@ -10,7 +10,7 @@ while n < len(students):
     print(students[n])
     n += 1
 
-# Infinte Loops
+# Infinite Loops
 n = 0
 while True:
     if n == len(students):

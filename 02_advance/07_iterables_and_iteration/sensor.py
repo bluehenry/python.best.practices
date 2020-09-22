@@ -11,6 +11,7 @@ class Sensor:
     def __next__(self):
         return random.random()
 
+
 sensor = Sensor()
 timestamps = iter(datetime.datetime.now, None)
 

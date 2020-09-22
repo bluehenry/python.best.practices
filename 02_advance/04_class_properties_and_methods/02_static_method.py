@@ -1,5 +1,5 @@
 class Container:
-    next_serial = 1;
+    next_serial = 1
 
     @staticmethod
     def _get_next_serial():

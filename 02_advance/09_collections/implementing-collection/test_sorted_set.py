@@ -20,6 +20,7 @@ class TestConstruction(unittest.TestCase):
             yield 8
             yield 4
             yield 2
+
         g = gen6842()
         s = SortedSet(g)
 
@@ -45,6 +46,7 @@ class TestContainerProtocol(unittest.TestCase):
 
     def test_protocol(self):
         self.assertTrue(issubclass(SortedSet, Container))
+
 
 class TestSizeProtocol(unittest.TestCase):
     def test_empty(self):
@@ -193,7 +195,7 @@ class TestReprProtocol(unittest.TestCase):
         self.assertEqual(repr(s), "SortedSet([19, 40, 42])")
 
 
-class TestEqualityProtocol (unittest.TestCase):
+class TestEqualityProtocol(unittest.TestCase):
     def test_positive_equal(self):
         self.assertTrue(SortedSet([4, 5, 6]) == SortedSet([6, 5, 4]))
 
@@ -208,7 +210,7 @@ class TestEqualityProtocol (unittest.TestCase):
         self.assertTrue(s == s)
 
 
-class TestInequalityProtocol (unittest.TestCase):
+class TestInequalityProtocol(unittest.TestCase):
     def test_positive_unequal(self):
         self.assertTrue(SortedSet([4, 5, 6]) != SortedSet([1, 2, 3]))
 
@@ -227,7 +229,6 @@ class TestSetProtocol(unittest.TestCase):
     def test_protocol(self):
         self.assertTrue(issubclass(SortedSet, Set))
 
+
 if __name__ == '__main__':
     unittest.main()
-
-

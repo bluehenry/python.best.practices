@@ -1,5 +1,4 @@
 import bz2
-
 from demo_reader.util import writer
 
 extension = '.bz2'

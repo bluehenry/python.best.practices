@@ -1,5 +1,6 @@
 students = []
 
+
 def get_students_titlecase():
     students_titlecase = []
     for student in students:
@@ -24,6 +25,7 @@ def save_file(student):
         f.close()
     except Exception:
         print("Could not save file")
+
 
 def read_file():
     try:

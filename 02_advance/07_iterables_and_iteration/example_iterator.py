@@ -22,6 +22,7 @@ class ExampleIterable:
     def __iter__(self):
         return ExampleIterator(self.data)
 
+
 i = ExampleIterator([1, 2, 3, 4, 5])
 next(i)
 next(i)
@@ -30,9 +31,8 @@ next(i)
 for j in ExampleIterator([1, 2, 3, 4, 5]):
     print(j)
 
-
 for j in ExampleIterable([1, 2, 3, 4, 5]):
     print(j)
 
-list = [ i*3 for i in ExampleIterable([1, 2, 3, 4, 5])]
+list = [i * 3 for i in ExampleIterable([1, 2, 3, 4, 5])]
 print(list)

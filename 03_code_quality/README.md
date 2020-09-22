@@ -1,5 +1,5 @@
 # Python Enhancement Proposal (PEP)
-* A design document providing information to the pyton community or describing a new feature for python or its processes or environment
+* A design document providing information to the python community or describing a new feature for python or its processes or environment
 * [PEP 0 -- Index of Python Enhancement Proposals (PEPs)](https://www.python.org/dev/peps/)
 
 # [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)

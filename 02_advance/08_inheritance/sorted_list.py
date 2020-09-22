@@ -1,5 +1,6 @@
 from pprint import pprint as pp
 
+
 class SimpleList:
 
     def __init__(self, items):
@@ -38,7 +39,7 @@ class SortedList(SimpleList):
 
 class IntList(SimpleList):
     def __init__(self, items=()):
-        for x in items:self._validate(x)
+        for x in items: self._validate(x)
         super().__init__(items)
 
     @staticmethod
@@ -61,7 +62,7 @@ class SortedIntList(IntList, SortedList):
 
 
 # pp(issubclass(SortedList, SimpleList))
-#
+
 l = SortedIntList([2, 3, 1])
 l.add(4)
 pp(l.__repr__())

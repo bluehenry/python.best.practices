@@ -4,6 +4,7 @@ class Employee:
     def function(self):
         print("This is a message inside the class.")
 
+
 employeeTom = Employee()
 
 employeeJerry = Employee()

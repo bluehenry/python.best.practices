@@ -1,7 +1,8 @@
 # At the core, numpy provides the excellent ndarray objects, short for n-dimensional arrays.
 
 # In a ‘ndarray’ object, aka ‘array’, you can store multiple items of the same data type.
-# It is the facilities around the array object that makes numpy so convenient for performing math and data manipulations.
+# It is the facilities around the array object that makes numpy so convenient for performing math
+# and data manipulations.
 
 import numpy as np
 
@@ -10,7 +11,8 @@ import numpy as np
 list = [0, 1, 2, 3, 4]
 array_1d = np.array(list)
 
-# The key difference between an array and a list is, arrays are designed to handle vectorized operations while a python list is not.
+# The key difference between an array and a list is,
+# arrays are designed to handle vectorized operations while a python list is not.
 # That means, if you apply a function it is performed on every item in the array, rather than on the whole array object.
 new_array_1d = array_1d + 2
 print(new_array_1d)
@@ -42,7 +44,7 @@ print("Min value is: ", array_2d.min())
 print("Column wise minimum: ", np.amin(array_2d, axis=0))
 print("Row wise minimum: ", np.amin(array_2d, axis=1))
 
-# Resharping
+# Reshaping
 # Reshape a 3x4 array to 4x3 array
 array_2d.reshape(4, 3)
 

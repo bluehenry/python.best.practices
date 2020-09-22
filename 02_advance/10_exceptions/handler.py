@@ -1,5 +1,6 @@
 from random import randrange
 
+
 def main():
     number = randrange(100)
     while True:
