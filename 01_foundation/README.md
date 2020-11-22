@@ -42,8 +42,7 @@ REPL or Read-Evaluate-Print-Loop
 * Exception objects contain information about the exceptional event.
 
 # Cheatsheet
-## Windows $PATH
-If you cannot run the pip command directly in Windows, add the following path in $PATH 
+* If you cannot run the pip command directly in Windows, add the following path in $PATH 
 ```
 C:\Users\UserName\AppData\Local\Programs\Python\Python37-32\Scripts
 ```
@@ -52,7 +51,6 @@ C:\Users\UserName\AppData\Local\Programs\Python\Python37-32\Scripts
 ```bash
 import words
 help(words)
-
 ```
 ### pprint
 

@@ -10,13 +10,14 @@ print(type(f2))
 print(type(c1))
 print(type(c2))
 
-# Integers and Floats
+# Integer and Float
 answer = 42
 pi = 3.14
-print(answer + pi)  # Don't worry about conversion!
+print(answer + pi)  # Don't worry about conversion
 
 
 # Type Hinting
+# Function parameters and return value
 def add_numbers(a: int, b: int) -> int:
     return a + b
 
